@@ -1,29 +1,29 @@
-table{
+table {
   margin-left: auto;
   margin-right: auto;
   border-collapse:collapse;
 }
 
-td{
+td {
   border: solid 0.1em #AA0033;
   margin: 0px;
   padding: 1em;
 }
 
-.flipped{
+.flipped {
   animation-duration:1s;
   animation-name:rotateDown;
   color:blue;
   transform:rotate(180deg);
 }
 
-.standard{
+.standard {
   animation-duration:1s;
   animation-name:rotateUp;
   transform:rotate(0deg);
 }
 
-@keyframes rotateDown{
+@keyframes rotateDown {
   from{
     transform:rotate(0deg);
   }
@@ -32,7 +32,7 @@ td{
   }
 }
 
-@keyframes rotateUp{
+@keyframes rotateUp {
   from{
     transform:rotate(180deg);
   }
