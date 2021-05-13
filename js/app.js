@@ -1,3 +1,4 @@
+//adding a comment to see if it will let me commit
 let updateCells = (newCell) => {
     let curCell = document.querySelector(`.flipped`);
     if (newCell == curCell) {
